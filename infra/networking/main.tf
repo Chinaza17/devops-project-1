@@ -59,7 +59,7 @@ resource "aws_internet_gateway" "dev_proj_1_public_internet_gateway" {
 
 # Public Route Table
 resource "aws_route_table" "dev_proj_1_public_route_table" {
-  vpc_id = aws_vpc.dev_proj_1_vpc_eu_west_1.id
+  vpc_id = aws_vpc.dev_proj_1_vpc_eu_central_1.id
   route {
     cidr_block = "0.0.0.0/0"
     gateway_id = aws_internet_gateway.dev_proj_1_public_internet_gateway.id
