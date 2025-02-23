@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "rest-project-api"
+    bucket = "devops-project-12345"
     key    = "devops-project-1/terraform.tfstate"
-    region = "eu-west-1"
+    region = "eu-west-2"
   }
 }
