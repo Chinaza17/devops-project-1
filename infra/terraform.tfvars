@@ -10,7 +10,7 @@ cidr_public_subnet   = ["10.0.1.0/24", "10.0.2.0/24"]
 cidr_private_subnet  = ["10.0.3.0/24", "10.0.4.0/24"]
 eu_availability_zone = ["eu-west-2a", "eu-west-2b"]
 
-public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDiPkeYZPkD2qiyoI6xRmqi/bBgbmMmb6/rfoQkDMy8R1ODu6YKfQ78MZqg70QHpE8Qit9enYMGpBo3KLn2CJ8OeOhBxLKtmrNvj4JN5OjRZg9qPeoS/fGXTkZqnXI7fucZrtdInwGJKxPvs40sMmcBKBDFHix9ECQfcB7VSW5SunF6YQEzP7adj8jVz6teyO6FCpcuKgjU8IIQgXdEdqSj5sLFpROTpdjCHrz5UNLWWWfw9Z+saH1T2qCZ6DAOX+AW4E5GtQp2RkycKdsL5kPz/juuhGMNJWRTYgDt9Rk+i4PHpCO/5NrJ+T3dPDewTCCfG2Xbr2Hs4R0lCoJZ78zIFrM8PtieOAFyooKx0R0iwy8awxoA1e8ILr7Mpvem3ggo9AKMob0pyrJ5XUXHn8V51Tz/NhvkE6KJZxu2bW8qFEXGF8SBkSmbT1NUBxmXRxbMX+SjvGtQNyQ6h1Ju7v2rxBtfrPwb4rWlYN16QBih/h7hAoOcW2h/01IwYs/z01s= dell@DESKTOP-22D1SU2"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJuXKAwDGagPRXCNQWlbnSedZ7PsvP57LHqOj7CjKkIi6DW9ctJfXLOBlKmKRvlryf2ZWza4w98g/2AOO+/SzEjVr5cE40U9rd1tQnNtKemqK1f+tET3mGhFJX56oco38qY1dLzzaTZJ44NNqwmQ5m1yTBLdv6nimuDu6opTIBchzLDlTelHbz7O0V41I0slg46Oy5/J+RLCAy5rcBqzFBvRp10aQru1T1gTOD8GFRsfi9Ie3Yf4rViA4Wt30SJL4TZ3Eqv8yB3WDttKev7LWFiKDRBn8dvB+fGfXQDqNWnrb+wdcGPO5rEkB+jwy1Y+w8er2N9E9q1phGN+FK6+WL"
 ec2_ami_id     = "ami-0218d915e3ec83bc2"
 
 ec2_user_data_install_apache = ""
