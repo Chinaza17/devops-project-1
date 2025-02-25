@@ -1,6 +1,8 @@
 bucket_name = "devops-project-12345"
 name        = "environment"
 environment = "dev-1"
+key_pair_name = "aws_keypair"
+
 
 vpc_cidr             = "10.0.0.0/16"
 vpc_name             = "dev-proj-eu-west-vpc-2"
@@ -12,5 +14,6 @@ public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDiPkeYZPkD2qiyoI6xRmqi/bBgbm
 ec2_ami_id     = "ami-0218d915e3ec83bc2"
 
 ec2_user_data_install_apache = ""
+
 
 #domain_name = "jhooq.org"
